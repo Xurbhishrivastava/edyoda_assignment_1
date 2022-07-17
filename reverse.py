@@ -1,3 +1,10 @@
-str1 = str(input("enter any string to reverse"))
+#getting the string input from user
 
-print(str1[::-1]) 
+word=str(input("enter a word: "))
+reverse=""   
+for i in word:
+        reverse = i + reverse
+ 
+print("The original word is: ", word)
+ 
+print("Reverse of the word is: ", reverse)
